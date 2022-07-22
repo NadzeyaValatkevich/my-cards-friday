@@ -1,0 +1,14 @@
+.errorName, .errorDescription, .errorImg {
+    display: flex;
+    justify-content: center;
+}
+.errorName {
+    font-size: 60px;
+    font-weight: bold;
+    animation: blink5 2s linear infinite;
+    color: red;
+}
+.errorDescription {
+    font-size: 40px;
+    font-weight: bold;
+}
